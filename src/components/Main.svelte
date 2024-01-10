@@ -155,7 +155,7 @@
                 > habilidades em tecnologia incluem
             </h6>
         </div>
-        <div class="flex flex-row sm:flex-col  items-center sm:mt-20 mt-10">
+        <div class="flex flex-row sm:flex-col items-center sm:mt-20 mt-10">
             <div
                 class="flex flex-wrap justify-center text-center gap-40 flex-row"
             >
