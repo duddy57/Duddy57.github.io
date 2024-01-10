@@ -1,5 +1,10 @@
 <script>
     const year = new Date().getFullYear();
+    import { onMount } from "svelte";
+
+    onMount(() => {
+        AOS.init();
+    });
 </script>
 
 <footer
@@ -17,13 +22,23 @@
                     >Email:
                 </b>tandinhoduddy9@gmail.com
             </p>
-            <a href="https://www.linkedin.com/in/duddy57dev/" class="transition ease-in-out hover:-translate-y-3 hover:scale-110 "
-                ><i class=" fa-brands fa-linkedin fa-xl text-violet-400 hover:text-violet-600"></i></a
-            > 
-            <a href="https://www.instagram.com/duddy57dev_/" class="transition ease-in-out hover:-translate-y-3 hover:scale-110 "
-                ><i class="fa-brands fa-github fa-xl text-violet-400 hover:text-violet-600"></i></a
+            <a
+                href="https://www.linkedin.com/in/duddy57dev/"
+                class="transition ease-in-out hover:-translate-y-3 hover:scale-110"
+                ><i
+                    class=" fa-brands fa-linkedin fa-xl text-violet-400 hover:text-violet-600"
+                ></i></a
             >
-            <a href="https://www.instagram.com/duddy57dev_/" class=" text-violet-400 transition ease-in-out hover:-translate-y-3 hover:scale-110 hover:text-violet-600"
+            <a
+                href="https://www.instagram.com/duddy57dev_/"
+                class="transition ease-in-out hover:-translate-y-3 hover:scale-110"
+                ><i
+                    class="fa-brands fa-github fa-xl text-violet-400 hover:text-violet-600"
+                ></i></a
+            >
+            <a
+                href="https://www.instagram.com/duddy57dev_/"
+                class=" text-violet-400 transition ease-in-out hover:-translate-y-3 hover:scale-110 hover:text-violet-600"
                 ><i class="fa-brands fa-instagram fa-xl"></i></a
             >
         </div>

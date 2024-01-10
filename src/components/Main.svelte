@@ -1,5 +1,9 @@
 <script>
-    AOS.init();
+    import { onMount } from "svelte";
+
+    onMount(() => {
+        AOS.init();
+    });
 
     let benefits = [
         {
