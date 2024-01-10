@@ -14,7 +14,7 @@
             ? " py-4 bg-slate-950 border-violet-950"
             : " py-6 bg-transparent border-transparent")}
 >
-    <a href="/"><img src="Logo.svg" alt="Logo" class=" h-10 w-10" /></a>
+    <a href="#introPage"><img src="Logo.svg" alt="Logo" class=" h-10 w-10" /></a>
     <div class="sm:flex items-center gap-6 hidden font-bold">
         {#each tabs as tab, index}
             <a href={tab.name} class=" duration-200 hover:text-violet-400">
