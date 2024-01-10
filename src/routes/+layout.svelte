@@ -1,6 +1,6 @@
 <script>
-    import Footer from "..Footer.svelte";
-    import Header from "..Header.svelte";
+    import Footer from "../lib/Footer.svelte";
+    import Header from "../lib/Header.svelte";
     import "../app.css";
     let y;
     let innerWidth = 0;

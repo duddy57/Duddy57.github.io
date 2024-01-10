@@ -1,5 +1,5 @@
 <script>
-    import Main from "..Main.svelte";
+    import Main from "../lib/Main.svelte";
 </script>
 
 <Main />
