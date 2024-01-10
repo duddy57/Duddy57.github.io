@@ -1,16 +1,6 @@
 <script>
     AOS.init();
 
-    let habilits = [
-        { name: "Golang", Image: "Golang.svg" },
-        { name: "Javascript", Image: "Js.svg" },
-        { name: "Python", Image: "Python.svg" },
-        { name: "React", Image: "React.svg" },
-        { name: "Svelte", Image: "Svelte.svg" },
-        { name: "Tailwind", Image: "Tailwind.svg" },
-        { name: "Linux", Image: "Linux.svg" },
-    ];
-
     let benefits = [
         {
             name: "Entusiasta do Desenvolvimento FrontEnd",

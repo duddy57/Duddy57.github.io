@@ -27,6 +27,6 @@
                 ><i class="fa-brands fa-instagram fa-xl"></i></a
             >
         </div>
-        <p>Trafyy&copy; {year}</p>
+        <p class="poppins">Trafyy&copy; {year}</p>
     </div>
 </footer>

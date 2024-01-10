@@ -1,14 +1,14 @@
 <script>
-    import Footer from "../lib/Footer.svelte";
-    import Header from "../lib/Header.svelte";
-    import "../app.css";
+    import Footer from "./lib/Footer.svelte";
+    import Header from "./lib/Header.svelte";
+    import "./app.css";
     let y;
     let innerWidth = 0;
     let innerHeight = 0;
 
     function goTop() {
         document.body.scrollIntoView();
-    };
+    }
 </script>
 
 <div
@@ -27,9 +27,8 @@
             <i class="fa-solid fa-arrow-up" />
         </button>
     </div>
-    <Header {y} {innerHeight}/>
+    <Header {y} {innerHeight} />
     <slot />
     <Footer />
 </div>
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />
-
